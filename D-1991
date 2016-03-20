@@ -1,9 +1,9 @@
 [Adblock Plus 2.1]
-! Checksum: ny5D9bDkSVnIMOdXTW5PWg
-! Version: 201603200653
-! Title: EasyList China[个人自用]
+! Checksum: 0sEFwIYwi7fMXkEaxAEdww
+! Version: 201603201153
+! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last Modified: 20 Mar 2016 06:53 UTC
+! Last Modified: 20 Mar 2016 11:53 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -5475,6 +5475,7 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
+||wangpange.com/img/chaomi_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -9977,6 +9978,7 @@ brandsales.58.com#@#div[id^="ad_"]
 m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||wzjzfw.com/player/*&showAd=
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -11123,6 +11125,8 @@ v.pps.tv##div.pgbox-content
 |http://www.tudou.com/feeportal/getPayMsg.html?
 |http://www.tudou.com/crp/getOtherItemInfo.action?
 |http://www.tudou.com/crp/getLoginLimit.action?
+tudou.com##.ab_banner
+tudou.com##.ab_r1
 @@|http://v2html.atm.youku.com/vhtml
 ||atm.youku.com/
 @@|http://hudong.pl.youku.com/crossdomain.xml
@@ -12910,6 +12914,4 @@ www.myhack58.com##ul.adv32
 hexun.com##div.advp.clearfix
 52tian.net##div.bdad
 ||hjfile.cn/analytics/site/TrackEvent.js
-tudou.com##ad_baner
-tudou.com##ad_r1
 !----------------------------------The End------------------------------------!
